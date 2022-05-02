@@ -38,10 +38,11 @@ class Huffman {
         for (int i = 0; i < table.length; i++) {
             if (table[i] != 0) {
                 myNode[counter] = new Node(table[i], (char) i, null, null);
-                System.out.println((char) i+ " = "+table[i] );
+                System.out.println("fecuencia de: "+ (char) i+ " = "+table[i] );
                 counter++;
             }
         }
+        System.out.println("\n");
         lengthOfNode = myNode.length;
         sort();
     }

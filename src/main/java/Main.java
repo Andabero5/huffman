@@ -9,7 +9,7 @@ class Main {
         System.out.print("ingrese palabra: ");
         value = input.nextLine();
         value = value.replace(" ", "");
-        System.out.println("el valor introducido es: " + value);
+        System.out.println("el valor introducido es: " + value + "\n");
         huffman = new Huffman(value);
         System.out.println("La representación de bits de la cadena que has escrito es: " + huffman.hC.finalBitPattern);
     }
